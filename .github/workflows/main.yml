@@ -20,7 +20,7 @@ jobs:
         distribution: 'adopt'
 
     - name: complie java code
-      run: javac Helloworld.java
+      run: javac HelloWorld.java
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v2
