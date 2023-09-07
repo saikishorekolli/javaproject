@@ -1,5 +1,5 @@
 ﻿FROM openjdk:11
-COPY ./HelloWorld.class /app/HelloWorld.class
+COPY ./testjava/src/App.class /app/HelloWorld.class
 ENTRYPOINT ["java", "-cp", "/app", "HelloWorld"]
 
 
