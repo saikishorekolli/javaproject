@@ -19,8 +19,8 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
 
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
+    - name: complie java code
+      run: javac Helloworld.java
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v2
