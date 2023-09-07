@@ -39,8 +39,8 @@ jobs:
       uses: azure/aks-set-context@v1
       with:
         creds: '${{ secrets.AZURE_CREDENTIALS }}'
-        cluster-name: myAKSCluster
-        resource-group: myResourceGroup
+        cluster-name: javaproject
+        resource-group: AKS-Test
 
     - name: Deploy app
       run: kubectl apply -f k8s-deployment.yml
