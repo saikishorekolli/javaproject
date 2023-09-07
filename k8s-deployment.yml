@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: my-java-app
-        image: my-java-app:latest
+        image: saikishore0501/my-java-app:latest
